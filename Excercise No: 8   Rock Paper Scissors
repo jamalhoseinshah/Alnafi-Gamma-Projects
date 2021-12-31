@@ -13,7 +13,7 @@ Scissors beats paper
 Paper beats rock
 
 """
-
+################################################# SOLUTION ##########################################################################
 # import random module
 import random
 
