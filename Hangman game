@@ -16,7 +16,7 @@ Concepts to keep in mind:
 
 Importantly!
 
-The Goal: Despite the name, the actual “hangman” part isn’t necessary. 
+Despite the name, the actual “hangman” part isn’t necessary. 
 The main goal here is to create a sort of “guess the word” game. The 
 user needs to be able to input letter guesses. A limit should also 
 be set on how many guesses they can use. This means you’ll need a 
@@ -26,9 +26,6 @@ to check if the user has actually inputted a single letter, to
 check if the inputted letter is in the hidden word (and if it is, 
 how many times it appears), to print letters, and a counter variable 
 to limit guesses.
-
-
-
 
 """
 
@@ -103,3 +100,147 @@ while True:
 	else:
 		print("\tWhatever.")
 		break
+		
+		
+############################################################ OUTPUT ########################################################################
+# play two time only see below
+
+
+
+
+
+
+
+	Welcome to Hangman!
+	Your word is 4 letters long! and you have 7 tries to figure it out!
+
+
+	 _ _ _ _
+
+
+	Things you've guessed wrong: 
+
+What's your guess?  b
+
+
+	 b _ _ _
+
+
+	Things you've guessed wrong: 
+
+What's your guess?  k
+	You'll have to try again if you want to win.
+	Your count is now at 1!
+
+
+	 b _ _ _
+
+
+	Things you've guessed wrong:  k 
+
+What's your guess?  z
+
+
+	 b _ z z
+
+
+	Things you've guessed wrong:  k 
+
+What's your guess?  u
+	You've won!
+	The word is buzz!
+
+Would you like to play again? y/n:y
+	Nice, let's do it.
+
+
+
+
+
+
+
+	Welcome to Hangman!
+	Your word is 4 letters long! and you have 7 tries to figure it out!
+
+
+	 _ _ _ _
+
+
+	Things you've guessed wrong: 
+
+What's your guess?  h
+	You'll have to try again if you want to win.
+	Your count is now at 1!
+
+
+	 _ _ _ _
+
+
+	Things you've guessed wrong:  h 
+
+What's your guess?  a
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h 
+
+What's your guess?  b
+	You'll have to try again if you want to win.
+	Your count is now at 2!
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h  b 
+
+What's your guess?  l
+	You'll have to try again if you want to win.
+	Your count is now at 3!
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h  b  l 
+
+What's your guess?  u
+	You'll have to try again if you want to win.
+	Your count is now at 4!
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h  b  l  u 
+
+What's your guess?  e
+	You'll have to try again if you want to win.
+	Your count is now at 5!
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h  b  l  u  e 
+
+What's your guess?  x
+	You'll have to try again if you want to win.
+	Your count is now at 6!
+
+
+	 _ a _ _
+
+
+	Things you've guessed wrong:  h  b  l  u  e  x 
+
+What's your guess?  n
+	You'll have to try again if you want to win.
+	Your count is now at 7!
+	Wow.. Of course you lost.
+	The word is jazz!
+
+Would you like to play again? y/n:n
+	Whatever.
