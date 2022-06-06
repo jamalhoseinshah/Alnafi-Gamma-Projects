@@ -2,7 +2,7 @@
 
  
 """
-################################################### ROLL THE DICE ####################################################
+##################### ROLL THE DICE ###################
 How it works
 This is a classic "roll the dice" programme. 
 We will be using the random module for this,since we want to randomize the numberswe get from the dice. 
@@ -22,7 +22,7 @@ while roll_again == "yes" or roll_again == "y":
     print random.randint(min, max)
     roll_again = raw_input("Roll the dices again?")
     
-########################################################################################################################
+######################################################
 """
 
 import random
@@ -44,7 +44,7 @@ while True:
         print('Thanks for playing.')
         break
         
-################################################ OUTPUT ######################################################################
+####################### OUTPUT ####################################
 Please press ENTER to roll the dice.
 The number rolled is  4 .
 
