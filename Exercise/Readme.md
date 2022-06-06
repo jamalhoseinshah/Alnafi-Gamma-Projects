@@ -1,5 +1,5 @@
 """
-#################################################### Exercise 2 ################################################################################
+################ Exercise 2 ######################################
 
 Ask the user for a number. Depending on whether the number is even or odd, print out an appropriate message to the user.
 
@@ -10,8 +10,7 @@ Extras:
 If the number is a multiple of 4, print out a different message.
 Ask the user for two numbers: one number to check (call it num) and one number to divide by (check). If check divides evenly into num, tell that to the user. 
 If not, print a different appropriate message.
-
-#################################################### SOLUTION ##################################################################################################
+#################### SOLUTION ################################
 
 num = input("Enter a number: ")
 
@@ -22,7 +21,7 @@ if x  > 0:
 else:
     print("You picked an even number.")
     
-##################################################### OUTPUT #####################################################################################################    
+######################## OUTPUT ###################################    
 
 # EXAMPLE NO:1
 
@@ -36,7 +35,7 @@ You picked an odd number.
 
 
 
-####################################################### SECOND EXAMPLE ###########################################################################################    
+################# SECOND EXAMPLE ##########################    
 num = int(input("give me a number to check: "))
 check = int(input("give me a number to divide by: "))
 
@@ -52,7 +51,7 @@ if num % check == 0:
 else:
     print(num, "does not divide evenly by", check) 
    
-############################################################ OUTPUT ##################################################################################################
+######################## OUTPUT #########################
 
 # EXAMPLE NO: 1
 give me a number to check: 12
