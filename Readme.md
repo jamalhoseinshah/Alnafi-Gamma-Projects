@@ -1,23 +1,11 @@
+This lab is created by alnafi.com for educational purpose only. 
+lab Domain name: icebreakerspro.com 
 
+Recon-ng is a Web Reconnaissance tool written in Python. It has so many modules, database interaction, built-in convenience functions, interactive help, and command completion, Recon-ng provides a powerful environment in which open source web-based reconnaissance can be conducted, and we can gather all information.
 
-"""
-Exercise 1
-Create a program that asks the user to enter their name and their age. Print out a message addressed to them that tells them the year that they will turn 100 years old.
-"""
+Is preinstalled in Kali and her attached snapshot in order to demonstrat how is use this software for only educational purpose only for ethicial hacking student. 
 
-name = input("What is your name: ")
-age = int(input("How old are you: "))
-year = str((2014 - age)+100)
-print(name + " will be 100 years old in the year " + year)
+click below link for installation guidance in others linux OS by "gitclone https://github.com/lanmaster53/recon-ng.git"
+https://github.com/lanmaster53/recon-ng
 
-################## OUTPUT ########################
-
-name = input("What is your name: ")
-age = int(input("How old are you: "))
-year = str((2014 - age)+100)
-print(name + " will be 100 years old in the year " + year)
-
-What is your name: jamal
-
-How old are you: 48
-jamal will be 100 years old in the year 2066
+Jamal H.Shah
