@@ -24,7 +24,7 @@ for number in listRange:
 print(divisorList)
 
 
-############################### OUTPUT ################################################
+############## OUTPUT ###########################
 
 Please choose a number to divide: 23
 [1, 23]
