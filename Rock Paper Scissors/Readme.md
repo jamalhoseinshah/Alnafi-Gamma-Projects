@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-################################################ Exercise 8 #####################################################################
+############## Exercise 8 ########################################
 
 Rock Paper Scissors   
 Make a two-player Rock-Paper-Scissors game. (Hint: Ask for player plays (using input), compare them, print out a message of congratulations 
@@ -13,7 +13,7 @@ Scissors beats paper
 Paper beats rock
 
 """
-################################################# SOLUTION ##########################################################################
+###################### SOLUTION #########################
 # import random module
 import random
 
@@ -108,7 +108,7 @@ while True:
 print("\nThanks for playing")
 
 
-############################################## OUTPUT ########################################################################
+############### OUTPUT ################################
 
 Winning Rules of the Rock paper scissor game as follows: 
 Rock vs paper->paper wins 
